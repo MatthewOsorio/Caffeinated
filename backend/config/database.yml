@@ -1,0 +1,26 @@
+  development:
+    adapter: postgresql
+    database: caffeinated_database_development
+    pool: 5
+    timeout: 5000
+  test:
+    adapter: postgresql
+    database: my_database_test
+    pool: 5
+    timeout: 5000
+
+  production:
+    url: <%= ENV["DATABASE_URL"] %>
+    adapter: postgresql
+    database: caffeinated_database_production
+    pool: 5
+    timeout: 5000
+
+  cable:
+    url: <%= ENV["DATABASE_URL"] %>
+
+  queue:
+    url: <%= ENV["DATABASE_URL"] %>
+
+  cache:
+    url: <%= ENV["DATABASE_URL"] %>
