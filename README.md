@@ -1,10 +1,11 @@
-﻿# Caffeinated Web App
-  Built with ReactJS and RubyOnRails Rest Framework
+﻿# Caffeinated
+  A full stack project I made for an application. It is a web app that allows you to find and review coffeeshops all around the world.
 
-## Check it out here
-  https://becaffeinated.vercel.app/
+## Visit The Site
+  Please check it out <a href="https://becaffeinated.vercel.app/">here!</a>
+  ![Image](https://github.com/user-attachments/assets/49b2377d-757d-443a-b418-981c58468ba2)
 
 ## Features
-  - Authentication with JSON Webtokens
-  - Find coffee shops in any city
-  - Write reviews on those coffee shops 
+  - **Postgres Database:** Stores user and review information.
+  - **Ruby On Rails Backend:** A RESTful API to manage user and review data. Implemented JSON Webtokens for user authentication. Hosted using Render.
+  - **ReactJS Frontend:** Minimalistic user interface for finding, viewing, and reviewing coffeeshops. Hosted using Vercel.
