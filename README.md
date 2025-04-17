@@ -7,5 +7,5 @@
 
 ## Features
   - **Postgres Database:** Stores user and review information.
-  - **Ruby On Rails Backend:** A RESTful API to manage user and review data. Implemented JSON Webtokens for user authentication. Hosted using Render.
-  - **ReactJS Frontend:** Minimalistic user interface for finding, viewing, and reviewing coffeeshops. Hosted using Vercel.
+  - **Ruby On Rails Backend:** A RESTful API to manage user and review data. Implemented JSON Webtokens for user authentication. Hosted using Render. <a href = 'https://github.com/MatthewOsorio/Caffeinated-Backend'>Repository for backend</a>
+  - **ReactJS Frontend:** Minimalistic user interface for finding, viewing, and reviewing coffeeshops. Hosted using Vercel. <a href = 'https://github.com/MatthewOsorio/Caffeinated-Frontend'>Repository for frontend</a>
